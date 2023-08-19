@@ -1,15 +1,8 @@
 +++
-author = "Theme author"
-date = "2023-07-18"
-description = "About Me"
-featured = "wazuh-dash.png"
-featuredalt = ""
-featuredpath = ""
-linktitle = ""
-title = "About"
-type = "post"
-
-+++
+Description = ""
+Tags = ["Development", "golang"]
+Categories = ["Development", "GoLang"]
+menu = "main"
 +++
 
 ![My Profile Picture](https://pbs.twimg.com/profile_images/1669370127673073664/01m-kV0E_400x400.jpg)
