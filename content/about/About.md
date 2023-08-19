@@ -1,4 +1,16 @@
++++
+author = "Theme author"
+date = "2023-07-18"
+description = "About Me"
+featured = "wazuh-dash.png"
+featuredalt = ""
+featuredpath = ""
+linktitle = ""
+title = "About"
+type = "post"
 
++++
++++
 
 # My Profile
 
