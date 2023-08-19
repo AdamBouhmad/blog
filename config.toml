@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "baseURL = "https://adambouhmad.github.io/"
 languageCode = "en-us"
 theme = "poison"
 paginate = 10
