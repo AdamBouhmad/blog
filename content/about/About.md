@@ -12,13 +12,11 @@ type = "post"
 +++
 +++
 
-# My Profile
-
 ![My Profile Picture](https://pbs.twimg.com/profile_images/1669370127673073664/01m-kV0E_400x400.jpg)
 
 ## About Me
 
-I'm a life-long learner that's interested in the intersection of humanities & technology
+Hey, I'm Adam! I'm a life-long learner that's interested in the intersection of humanities & technology. Want to connect? Drop me a line at adbouhmad@gmail.com or @adambouhmad on Twitter.
 
 ## Work Experience
 
