@@ -2,7 +2,7 @@
 author = "Adam Bouhmad"
 title = "Postgres Study Notes"
 description = "Postgres Study Notes"
-date = "2025-04-03"
+date = "2024-12-09"
 categories = ["Postgres", "PostgreSQL", "Product Management", "Data Analytics", "Development", "GoLang"]
 tags = ["Development", "golang"]
 menu = "main"

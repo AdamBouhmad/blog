@@ -1,12 +1,14 @@
 [identity]
-working = "Senior Product Manager, Cloudflare (IAM)"
-living = "Baltimore, MD"
+working_day = "Playing my part to help secure the Internet @ Cloudflare"
+working_night = "Working on RecipePal to make cooking easier"
+living_header = "127.0.0.1"
+living = "Seattle, Washington"
 
 [reading]
-title = "Practical SQL"
+title = "Python Crash Course"
 url = ""
-note = "Raw study notes and examples"
+note = ""
 
 [learning]
-title = "Rust + secure AI systems"
-note = "MCP security, identity, and systems design"
+title = "Python, Rust, & Darija Arabic"
+note = ""

@@ -1,7 +1,7 @@
 +++
 author = "Theme author"
 categories = ["HIDS","Security", "Defense", "SIEM"]
-date = "2018-04-20"
+date = "2017-09-17"
 description = "HIDS Made Easy(pt1)"
 featured = "wazuh-dash.png"
 featuredalt = ""

@@ -5,6 +5,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib import parse, request, error
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,9 @@ def fetch_access_token(client_id: str, client_secret: str, refresh_token: str) -
 
 
 def build_payload(token: str, default_profile_name: str) -> dict:
+    now_utc = datetime.now(timezone.utc)
+    now_pacific = now_utc.astimezone(ZoneInfo("America/Los_Angeles"))
+
     now_status, now_data = get_json(
         "https://api.spotify.com/v1/me/player/currently-playing", token
     )
@@ -70,7 +74,8 @@ def build_payload(token: str, default_profile_name: str) -> dict:
         "artist": "Spotify",
         "album_art_url": "",
         "song_url": "",
-        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "updated_at": now_utc.isoformat(),
+        "updated_at_pst": now_pacific.strftime("%Y-%m-%d %I:%M %p %Z"),
     }
 
     if now_status == 200 and now_data:

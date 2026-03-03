@@ -2,7 +2,7 @@
 author = "Adam Bouhmad"
 title = "Project Waves Manifesto"
 description = "Waves community mesh network manifesto notes"
-date = "2026-03-02"
+date = "2018-03-20"
 categories = ["Community", "Networking", "Manifesto"]
 tags = ["mesh", "community", "notes"]
 menu = "main"

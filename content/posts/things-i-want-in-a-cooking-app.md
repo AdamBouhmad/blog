@@ -2,7 +2,7 @@
 author = "Adam Bouhmad"
 title = "Things I Want in a Cooking App"
 description = "Raw notes for a cooking app concept"
-date = "2026-03-02"
+date = "2024-09-21"
 categories = ["Product", "Cooking", "App Ideas"]
 tags = ["product", "cooking", "notes"]
 menu = "main"

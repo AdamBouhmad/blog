@@ -1,62 +1,76 @@
 {{ define "main" -}}
 <div class="stream-page">
   <section class="stream-hero">
-    <p class="stream-eyebrow">Live Snapshot</p>
     <h1 class="post-title">{{ .Title }}</h1>
     <p class="stream-intro">{{ .Description }}</p>
   </section>
 
-  <section class="stream-grid">
-    <article class="stream-card stream-listening">
-      <h2>Currently Listening</h2>
-      <p class="stream-meta">Spotify: {{ .Site.Data.spotify_now_playing.profile_name }}</p>
-      <div>
-        <div class="stream-track-row">
-          {{ with .Site.Data.spotify_now_playing.album_art_url }}
-            <img class="stream-art is-visible" src="{{ . }}" alt="Album art" loading="lazy" />
-          {{ else }}
-            <img class="stream-art" alt="Album art" loading="lazy" />
-          {{ end }}
-          <div>
-            <p class="stream-status">{{ if .Site.Data.spotify_now_playing.is_playing }}Now playing{{ else }}Idle{{ end }}</p>
-            <p class="stream-track">{{ .Site.Data.spotify_now_playing.track }}</p>
-            <p class="stream-artist">{{ .Site.Data.spotify_now_playing.artist }}</p>
-          </div>
+  <section class="stream-highlight">
+    <article class="stream-panel stream-panel--listening">
+      <div class="stream-listening-head">
+        <h2>Currently Listening</h2>
+        <p class="stream-meta">Spotify: {{ .Site.Data.spotify_now_playing.profile_name }}</p>
+      </div>
+      <div class="stream-track-row">
+        {{ with .Site.Data.spotify_now_playing.album_art_url }}
+          <img class="stream-art is-visible" src="{{ . }}" alt="Album art" loading="lazy" />
+        {{ else }}
+          <img class="stream-art" alt="Album art" loading="lazy" />
+        {{ end }}
+        <div>
+          <p class="stream-status">{{ if .Site.Data.spotify_now_playing.is_playing }}Now playing{{ else }}Idle{{ end }}</p>
+          <p class="stream-track">{{ .Site.Data.spotify_now_playing.track }}</p>
+          <p class="stream-artist">{{ .Site.Data.spotify_now_playing.artist }}</p>
+          <p class="stream-link-wrap">
+            {{ with .Site.Data.spotify_now_playing.song_url }}
+              <a href="{{ . }}" target="_blank" rel="noopener noreferrer">Open in Spotify</a>
+            {{ end }}
+          </p>
         </div>
-        <p class="stream-link-wrap">
-          {{ with .Site.Data.spotify_now_playing.song_url }}
-            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">Open in Spotify</a>
-          {{ end }}
-        </p>
+      </div>
+      {{ with .Site.Data.spotify_now_playing.updated_at_pst }}
+        <p class="stream-meta">Updated: {{ . }}</p>
+      {{ else }}
         {{ with .Site.Data.spotify_now_playing.updated_at }}
           <p class="stream-meta">Updated: {{ . }}</p>
         {{ end }}
-      </div>
+      {{ end }}
     </article>
+  </section>
 
-    <article class="stream-card">
+  <section class="stream-grid">
+    <article class="stream-panel">
       <h2>Currently Reading</h2>
       {{ with .Site.Data.stream.reading.url }}
         <p><a href="{{ . }}">{{ $.Site.Data.stream.reading.title }}</a></p>
       {{ else }}
         <p>{{ .Site.Data.stream.reading.title }}</p>
       {{ end }}
-      <p class="stream-meta">{{ .Site.Data.stream.reading.note }}</p>
+      {{ with .Site.Data.stream.reading.note }}
+        <p class="stream-meta">{{ . }}</p>
+      {{ end }}
     </article>
 
-    <article class="stream-card">
+    <article class="stream-panel">
       <h2>Currently Learning</h2>
       <p>{{ .Site.Data.stream.learning.title }}</p>
-      <p class="stream-meta">{{ .Site.Data.stream.learning.note }}</p>
+      {{ with .Site.Data.stream.learning.note }}
+        <p class="stream-meta">{{ . }}</p>
+      {{ end }}
     </article>
 
-    <article class="stream-card">
-      <h2>Currently Working</h2>
-      <p>{{ .Site.Data.stream.identity.working }}</p>
+    <article class="stream-panel">
+      <h2>By Day:</h2>
+      <p>{{ .Site.Data.stream.identity.working_day }}</p>
     </article>
 
-    <article class="stream-card">
-      <h2>Currently Living</h2>
+    <article class="stream-panel">
+      <h2>By Night:</h2>
+      <p>{{ .Site.Data.stream.identity.working_night }}</p>
+    </article>
+
+    <article class="stream-panel">
+      <h2>{{ .Site.Data.stream.identity.living_header }}</h2>
       <p>{{ .Site.Data.stream.identity.living }}</p>
     </article>
   </section>

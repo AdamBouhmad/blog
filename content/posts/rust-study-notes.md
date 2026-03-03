@@ -2,7 +2,7 @@
 author = "Adam Bouhmad"
 title = "Rust Study Notes"
 description = "Rust Study Notes"
-date = "2026-03-02"
+date = "2025-07-05"
 categories = ["Rust", "Development", "Systems Programming"]
 tags = ["rust", "development"]
 menu = "main"

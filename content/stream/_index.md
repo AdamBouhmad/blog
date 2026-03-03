@@ -5,5 +5,3 @@ layout = "stream"
 type = "stream"
 draft = false
 +++
-
-This page is a living snapshot and gets updated over time.

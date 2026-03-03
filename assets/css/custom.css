@@ -1,79 +1,78 @@
 .stream-page {
-  --stream-card-bg: rgba(255, 255, 255, 0.72);
-  --stream-border: rgba(26, 43, 60, 0.16);
-  --stream-shadow: 0 20px 40px rgba(14, 30, 37, 0.12);
-  --stream-accent: #0f766e;
-  --stream-accent-soft: #c8f1eb;
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .stream-hero {
-  background: linear-gradient(120deg, #dafaf6 0%, #e9f1ff 45%, #fff3db 100%);
-  border: 1px solid var(--stream-border);
-  border-radius: 18px;
-  padding: 1.25rem 1.25rem 1.1rem;
-  box-shadow: var(--stream-shadow);
   margin-bottom: 1rem;
-}
-
-.stream-eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.72rem;
-  margin-bottom: 0.4rem;
-  color: #0b4f4d;
-  font-weight: 700;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--table-border-color);
 }
 
 .stream-intro {
-  margin-top: 0.35rem;
-  margin-bottom: 0;
-  color: #1f2937;
+  margin: 0.35rem 0 0;
+}
+
+.stream-highlight {
+  margin-bottom: 0.8rem;
 }
 
 .stream-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 0.85rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
 }
 
-.stream-card {
-  border: 1px solid var(--stream-border);
-  border-radius: 14px;
-  background: var(--stream-card-bg);
-  box-shadow: var(--stream-shadow);
-  backdrop-filter: blur(3px);
-  padding: 0.9rem 1rem;
+.stream-panel {
+  border: 1px solid var(--table-border-color);
+  border-radius: 6px;
+  padding: 0.62rem 0.72rem;
+  background: rgba(255, 255, 255, 0.45);
 }
 
-.stream-card h2 {
+.stream-panel h2 {
   margin-top: 0;
-  margin-bottom: 0.55rem;
-  font-size: 1.04rem;
+  margin-bottom: 0.24rem;
+  font-size: 0.92rem;
 }
 
-.stream-card p {
-  margin: 0.2rem 0;
+.stream-panel p {
+  margin: 0.08rem 0;
+  font-size: 0.95rem;
+}
+
+.stream-panel--listening {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.55));
+}
+
+.stream-listening-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.stream-listening-head .stream-meta {
+  margin: 0;
 }
 
 .stream-meta {
-  opacity: 0.82;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  color: var(--list-color);
 }
 
 .stream-track-row {
   display: flex;
-  gap: 0.75rem;
   align-items: center;
+  gap: 0.55rem;
 }
 
 .stream-art {
-  width: 56px;
-  height: 56px;
-  border-radius: 10px;
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
   display: none;
   object-fit: cover;
-  border: 1px solid var(--stream-border);
+  border: 1px solid var(--table-border-color);
 }
 
 .stream-art.is-visible {
@@ -81,50 +80,45 @@
 }
 
 .stream-status {
-  display: inline-block;
-  font-size: 0.76rem;
+  font-size: 0.72rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.16rem 0.46rem;
-  border-radius: 999px;
-  background: var(--stream-accent-soft);
-  color: #065f56;
-  margin: 0 0 0.2rem;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.18rem;
+  color: var(--date-color);
 }
 
 .stream-track {
   font-weight: 700;
+  font-size: 0.92rem;
 }
 
 .stream-artist {
-  color: #334155;
-  font-size: 0.94rem;
+  color: var(--list-color);
+  font-size: 0.84rem;
 }
 
 .stream-link-wrap {
-  margin-top: 0.45rem;
-  font-size: 0.9rem;
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
 }
 
 .stream-notes {
   margin-top: 0.85rem;
 }
 
+@media (max-width: 760px) {
+  .stream-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
-  .stream-page {
-    --stream-card-bg: rgba(17, 25, 40, 0.7);
-    --stream-border: rgba(148, 163, 184, 0.24);
-    --stream-shadow: 0 20px 40px rgba(2, 6, 23, 0.5);
-    --stream-accent-soft: rgba(15, 118, 110, 0.26);
+  .stream-panel {
+    background: rgba(255, 255, 255, 0.03);
   }
 
-  .stream-hero {
-    background: linear-gradient(120deg, rgba(15, 35, 52, 0.7) 0%, rgba(36, 28, 60, 0.66) 52%, rgba(69, 47, 14, 0.5) 100%);
-  }
-
-  .stream-intro,
-  .stream-artist,
-  .stream-eyebrow {
-    color: #dbeafe;
+  .stream-panel--listening {
+    background: rgba(255, 255, 255, 0.06);
   }
 }
