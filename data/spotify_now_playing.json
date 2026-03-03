@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-03-03T17:07:26.208427+00:00",
-  "updated_at_pst": "2026-03-03 09:07 AM PST"
+  "is_playing": true,
+  "track": "The Finishing",
+  "artist": "Stavroz",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273a3172d3d600d4c70936852fa",
+  "song_url": "https://open.spotify.com/track/2SCLswvRP8hAYdIKsrLV6h",
+  "updated_at": "2026-03-03T18:00:20.294066+00:00",
+  "updated_at_pst": "2026-03-03 10:00 AM PST"
 }
