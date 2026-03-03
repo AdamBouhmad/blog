@@ -13,6 +13,9 @@ Hey, I'm Adam! I'm a life-long learner that's interested in the intersection of 
 
 ## Work Experience
 
+### Senior Product Manager, Cloudflare
+At Cloudflare, I work on the IAM team, focused on all things Identity & Authorization
+
 ### Product Manager, HashiCorp Boundary
 Boundary is a Privileged Access Management tool that enables users to securely connect to machines, wherever they may be. Alongisde my PM counterparts, I collaborate closely with Engineering, Marketing, and Sales to help set the direction for the Product. 
 

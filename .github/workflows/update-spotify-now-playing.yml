@@ -1,0 +1,42 @@
+name: Update Spotify Now Playing
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update Spotify data file
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          SPOTIFY_PROFILE_NAME: Adam Bouhmad
+        run: python scripts/update_spotify_now_playing.py
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet data/spotify_now_playing.json; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git add data/spotify_now_playing.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(stream): update spotify now playing"
+          git push

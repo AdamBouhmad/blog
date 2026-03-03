@@ -1,0 +1,130 @@
+.stream-page {
+  --stream-card-bg: rgba(255, 255, 255, 0.72);
+  --stream-border: rgba(26, 43, 60, 0.16);
+  --stream-shadow: 0 20px 40px rgba(14, 30, 37, 0.12);
+  --stream-accent: #0f766e;
+  --stream-accent-soft: #c8f1eb;
+  margin-top: 0.5rem;
+}
+
+.stream-hero {
+  background: linear-gradient(120deg, #dafaf6 0%, #e9f1ff 45%, #fff3db 100%);
+  border: 1px solid var(--stream-border);
+  border-radius: 18px;
+  padding: 1.25rem 1.25rem 1.1rem;
+  box-shadow: var(--stream-shadow);
+  margin-bottom: 1rem;
+}
+
+.stream-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  margin-bottom: 0.4rem;
+  color: #0b4f4d;
+  font-weight: 700;
+}
+
+.stream-intro {
+  margin-top: 0.35rem;
+  margin-bottom: 0;
+  color: #1f2937;
+}
+
+.stream-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.85rem;
+}
+
+.stream-card {
+  border: 1px solid var(--stream-border);
+  border-radius: 14px;
+  background: var(--stream-card-bg);
+  box-shadow: var(--stream-shadow);
+  backdrop-filter: blur(3px);
+  padding: 0.9rem 1rem;
+}
+
+.stream-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  font-size: 1.04rem;
+}
+
+.stream-card p {
+  margin: 0.2rem 0;
+}
+
+.stream-meta {
+  opacity: 0.82;
+  font-size: 0.9rem;
+}
+
+.stream-track-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.stream-art {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  display: none;
+  object-fit: cover;
+  border: 1px solid var(--stream-border);
+}
+
+.stream-art.is-visible {
+  display: block;
+}
+
+.stream-status {
+  display: inline-block;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.16rem 0.46rem;
+  border-radius: 999px;
+  background: var(--stream-accent-soft);
+  color: #065f56;
+  margin: 0 0 0.2rem;
+}
+
+.stream-track {
+  font-weight: 700;
+}
+
+.stream-artist {
+  color: #334155;
+  font-size: 0.94rem;
+}
+
+.stream-link-wrap {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+}
+
+.stream-notes {
+  margin-top: 0.85rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .stream-page {
+    --stream-card-bg: rgba(17, 25, 40, 0.7);
+    --stream-border: rgba(148, 163, 184, 0.24);
+    --stream-shadow: 0 20px 40px rgba(2, 6, 23, 0.5);
+    --stream-accent-soft: rgba(15, 118, 110, 0.26);
+  }
+
+  .stream-hero {
+    background: linear-gradient(120deg, rgba(15, 35, 52, 0.7) 0%, rgba(36, 28, 60, 0.66) 52%, rgba(69, 47, 14, 0.5) 100%);
+  }
+
+  .stream-intro,
+  .stream-artist,
+  .stream-eyebrow {
+    color: #dbeafe;
+  }
+}
