@@ -8,4 +8,18 @@
         {{ .Content }}
     {{ end }}
 </div>
+
+<div class="posts">
+    <article class="post">
+        <h2 class="post-title">Recent Posts</h2>
+        <ul>
+            {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    <small> - {{ .Date.Format "Jan 2, 2006" }}</small>
+                </li>
+            {{ end }}
+        </ul>
+    </article>
+</div>
 {{ end }}

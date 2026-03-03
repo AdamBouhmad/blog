@@ -11,7 +11,7 @@ featuredalt = ""
 featuredpath = ""
 linktitle = ""
 type = "post"
-draft = true
+draft = false
 +++
 
 In a perfect world, I'd want the ability to:
