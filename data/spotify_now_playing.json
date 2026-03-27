@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
+  "is_playing": true,
   "track": "Not playing right now",
   "artist": "Spotify",
   "album_art_url": "",
   "song_url": "",
-  "updated_at": "2026-03-27T22:15:27.639185+00:00",
-  "updated_at_pst": "2026-03-27 03:15 PM PDT"
+  "updated_at": "2026-03-27T23:01:22.473935+00:00",
+  "updated_at_pst": "2026-03-27 04:01 PM PDT"
 }
