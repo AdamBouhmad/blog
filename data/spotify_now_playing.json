@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "CLOVER",
-  "artist": "IDK, Joey Valence & Brae",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b2737835c8f7332295996cfcd2be",
-  "song_url": "https://open.spotify.com/track/08DsqiAmlGHFGFeDQMTSep",
-  "updated_at": "2026-04-03T23:18:32.138450+00:00",
-  "updated_at_pst": "2026-04-03 04:18 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-03T23:58:02.141301+00:00",
+  "updated_at_pst": "2026-04-03 04:58 PM PDT"
 }
