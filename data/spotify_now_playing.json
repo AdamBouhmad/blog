@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-04-11T20:37:55.505312+00:00",
-  "updated_at_pst": "2026-04-11 01:37 PM PDT"
+  "is_playing": true,
+  "track": "Juno",
+  "artist": "Sabrina Carpenter",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+  "song_url": "https://open.spotify.com/track/21B4gaTWnTkuSh77iWEXdS",
+  "updated_at": "2026-04-11T21:15:30.975521+00:00",
+  "updated_at_pst": "2026-04-11 02:15 PM PDT"
 }
