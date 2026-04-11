@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "You Deserve This",
-  "artist": "Men I Trust",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273186d5ab142e22ab70fbced5f",
-  "song_url": "https://open.spotify.com/track/294NusLyTV6cRxJVjCqxML",
-  "updated_at": "2026-04-11T15:38:08.701201+00:00",
-  "updated_at_pst": "2026-04-11 08:38 AM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-11T16:04:09.125789+00:00",
+  "updated_at_pst": "2026-04-11 09:04 AM PDT"
 }
