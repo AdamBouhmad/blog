@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-04-12T22:48:35.875695+00:00",
-  "updated_at_pst": "2026-04-12 03:48 PM PDT"
+  "is_playing": true,
+  "track": "8 Hz Alpha Waves - Binaural Beats",
+  "artist": "Miracle Tones, Binaural Beats MT",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273545c1ade88b5eb5f2292aad3",
+  "song_url": "https://open.spotify.com/track/4zxTLBlDyOxvSFWcXfDhuK",
+  "updated_at": "2026-04-12T23:39:28.072970+00:00",
+  "updated_at_pst": "2026-04-12 04:39 PM PDT"
 }
