@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "70 Hz Peak Awareness - Binaural Beats",
-  "artist": "Miracle Tones, Binaural Beats MT",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273e860cd9e7130911acabaf2e6",
-  "song_url": "https://open.spotify.com/track/7blizlNsMb82TnLpwHrxm3",
-  "updated_at": "2026-04-13T01:09:11.707199+00:00",
-  "updated_at_pst": "2026-04-12 06:09 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-13T04:30:05.732099+00:00",
+  "updated_at_pst": "2026-04-12 09:30 PM PDT"
 }
