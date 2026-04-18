@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Keeping Me Under",
-  "artist": "Two Another",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273aab104c0d4df9091a7615894",
-  "song_url": "https://open.spotify.com/track/1Z8lwIxL8FUzXDMHzELt0P",
-  "updated_at": "2026-04-18T00:04:35.538038+00:00",
-  "updated_at_pst": "2026-04-17 05:04 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-18T03:30:19.727201+00:00",
+  "updated_at_pst": "2026-04-17 08:30 PM PDT"
 }
