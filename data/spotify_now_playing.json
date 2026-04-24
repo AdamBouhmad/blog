@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Eden",
-  "artist": "Monkey Majik",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273524192ac879c4ee45d6d6d29",
-  "song_url": "https://open.spotify.com/track/7CZKnz9mEt8Z638tyY5cKL",
-  "updated_at": "2026-04-24T00:09:34.605606+00:00",
-  "updated_at_pst": "2026-04-23 05:09 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-24T03:51:37.156220+00:00",
+  "updated_at_pst": "2026-04-23 08:51 PM PDT"
 }
