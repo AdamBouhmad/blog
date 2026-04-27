@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Way It Goes",
-  "artist": "Hippo Campus",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273d65c698f7b03031930a2a570",
-  "song_url": "https://open.spotify.com/track/6CES1554HcWMIVroJfmmBm",
-  "updated_at": "2026-04-27T18:40:47.448268+00:00",
-  "updated_at_pst": "2026-04-27 11:40 AM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-27T19:58:58.906063+00:00",
+  "updated_at_pst": "2026-04-27 12:58 PM PDT"
 }
