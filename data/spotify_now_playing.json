@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-04-27T21:12:41.434962+00:00",
-  "updated_at_pst": "2026-04-27 02:12 PM PDT"
+  "is_playing": true,
+  "track": "Ascension",
+  "artist": "Mac Miller",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+  "song_url": "https://open.spotify.com/track/19CkkPInDRDIOlqfrz1mVn",
+  "updated_at": "2026-04-27T22:09:08.536375+00:00",
+  "updated_at_pst": "2026-04-27 03:09 PM PDT"
 }
