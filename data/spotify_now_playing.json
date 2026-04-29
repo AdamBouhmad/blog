@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Programs",
-  "artist": "Mac Miller",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b27384bae70f69df07899a1f83c2",
-  "song_url": "https://open.spotify.com/track/1883mCuSqnfnrWoq8i3myH",
-  "updated_at": "2026-04-28T23:39:35.485037+00:00",
-  "updated_at_pst": "2026-04-28 04:39 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-04-29T01:25:05.705701+00:00",
+  "updated_at_pst": "2026-04-28 06:25 PM PDT"
 }
