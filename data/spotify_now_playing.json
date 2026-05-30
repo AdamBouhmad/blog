@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Cool Cat - Remastered 2011",
-  "artist": "Queen",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273a1e05e1048e2cf2737adf742",
-  "song_url": "https://open.spotify.com/track/6Re2AwZUVlgBng04BZTauW",
-  "updated_at": "2026-05-29T23:49:41.618395+00:00",
-  "updated_at_pst": "2026-05-29 04:49 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-05-30T03:42:42.992498+00:00",
+  "updated_at_pst": "2026-05-29 08:42 PM PDT"
 }
