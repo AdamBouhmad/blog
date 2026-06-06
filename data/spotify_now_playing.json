@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-06-06T13:50:17.923754+00:00",
-  "updated_at_pst": "2026-06-06 06:50 AM PDT"
+  "is_playing": true,
+  "track": "Make Them Know",
+  "artist": "Drake",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273fe9d3ab9adb1d3b59835b81c",
+  "song_url": "https://open.spotify.com/track/1xO3PpGchMqMmmF6OEtH5Y",
+  "updated_at": "2026-06-06T15:18:17.393529+00:00",
+  "updated_at_pst": "2026-06-06 08:18 AM PDT"
 }
