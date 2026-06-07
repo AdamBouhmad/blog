@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-06-06T23:06:46.833081+00:00",
-  "updated_at_pst": "2026-06-06 04:06 PM PDT"
+  "is_playing": true,
+  "track": "1-800-273-8255",
+  "artist": "Logic, Alessia Cara, Khalid",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273cfdf40cf325b609a52457805",
+  "song_url": "https://open.spotify.com/track/5tz69p7tJuGPeMGwNTxYuV",
+  "updated_at": "2026-06-07T00:17:26.245630+00:00",
+  "updated_at_pst": "2026-06-06 05:17 PM PDT"
 }
