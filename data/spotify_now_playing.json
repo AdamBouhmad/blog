@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Solitude",
-  "artist": "Billie Holiday",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b27334708df3636189370a12e6c1",
-  "song_url": "https://open.spotify.com/track/30QD4VRP9yEneOh0eGTrtJ",
-  "updated_at": "2026-06-09T04:45:50.418103+00:00",
-  "updated_at_pst": "2026-06-08 09:45 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-06-09T08:31:33.462776+00:00",
+  "updated_at_pst": "2026-06-09 01:31 AM PDT"
 }
