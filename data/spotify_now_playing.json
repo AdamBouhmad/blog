@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-06-13T19:41:01.208717+00:00",
-  "updated_at_pst": "2026-06-13 12:41 PM PDT"
+  "is_playing": true,
+  "track": "Stay",
+  "artist": "Mac Miller",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd",
+  "song_url": "https://open.spotify.com/track/4brX8MJs5hxErgq48f9REO",
+  "updated_at": "2026-06-13T20:53:35.368711+00:00",
+  "updated_at_pst": "2026-06-13 01:53 PM PDT"
 }
