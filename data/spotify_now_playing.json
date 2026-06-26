@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-06-26T19:52:53.954357+00:00",
-  "updated_at_pst": "2026-06-26 12:52 PM PDT"
+  "is_playing": true,
+  "track": "Ninety",
+  "artist": "Jaden",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b2736aafb01504b69173c877bdca",
+  "song_url": "https://open.spotify.com/track/2jdw2tc29bqJwToyGvKgJm",
+  "updated_at": "2026-06-26T21:21:43.546438+00:00",
+  "updated_at_pst": "2026-06-26 02:21 PM PDT"
 }
