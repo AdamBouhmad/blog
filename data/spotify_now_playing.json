@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Rainbow Bap feat. \u00bfT\u00e9o? - Remix",
-  "artist": "Jaden, \u00bfT\u00e9o?",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273acda73f26427c1be0b9d4217",
-  "song_url": "https://open.spotify.com/track/2hNIXzib2zAgnaC6ouytT2",
-  "updated_at": "2026-06-27T00:11:08.332695+00:00",
-  "updated_at_pst": "2026-06-26 05:11 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-06-27T04:17:20.164143+00:00",
+  "updated_at_pst": "2026-06-26 09:17 PM PDT"
 }
