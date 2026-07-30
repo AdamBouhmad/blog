@@ -1,14 +1,15 @@
 {{ define "main" -}}
 <div class="stream-page">
   <section class="stream-hero">
-    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="eyebrow">Signals</p>
+    <h1 class="essay-title">{{ .Title }}</h1>
     <p class="stream-intro">{{ .Description }}</p>
   </section>
 
   <section class="stream-highlight">
     <article class="stream-panel stream-panel--listening">
       <div class="stream-listening-head">
-        <h2>Currently Listening</h2>
+        <h2>Currently listening</h2>
         <p class="stream-meta">Spotify: {{ .Site.Data.spotify_now_playing.profile_name }}</p>
       </div>
       <div class="stream-track-row">
@@ -40,7 +41,7 @@
 
   <section class="stream-grid">
     <article class="stream-panel">
-      <h2>Currently Reading</h2>
+      <h2>Currently reading</h2>
       {{ with .Site.Data.stream.reading.url }}
         <p><a href="{{ . }}">{{ $.Site.Data.stream.reading.title }}</a></p>
       {{ else }}
@@ -52,7 +53,7 @@
     </article>
 
     <article class="stream-panel">
-      <h2>Currently Learning</h2>
+      <h2>Currently learning</h2>
       <p>{{ .Site.Data.stream.learning.title }}</p>
       {{ with .Site.Data.stream.learning.note }}
         <p class="stream-meta">{{ . }}</p>
@@ -60,12 +61,12 @@
     </article>
 
     <article class="stream-panel">
-      <h2>By Day:</h2>
+      <h2>By day</h2>
       <p>{{ .Site.Data.stream.identity.working_day }}</p>
     </article>
 
     <article class="stream-panel">
-      <h2>By Night:</h2>
+      <h2>By night</h2>
       <p>{{ .Site.Data.stream.identity.working_night }}</p>
     </article>
 

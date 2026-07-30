@@ -1,0 +1,8 @@
+{{ $cssBundle := slice
+  (resources.Get "css/syntax.css")
+  (resources.Get "css/lib/katex.css")
+  (resources.Get "css/site.css")
+  (resources.Get "css/custom.css")
+  | resources.Concat "css/site-bundle.css" | minify | fingerprint }}
+
+<link type="text/css" rel="stylesheet" href="{{ $cssBundle.RelPermalink }}">

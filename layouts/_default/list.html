@@ -1,0 +1,63 @@
+{{ define "main" -}}
+<section class="archive">
+  <header class="section-header">
+    {{ if eq .Section "posts" }}
+    {{ else }}
+      <p class="eyebrow">Section</p>
+      <h1 class="section-title">{{ .Title }}</h1>
+    {{ end }}
+    {{ with .Content }}<div class="section-copy">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ if eq .Section "posts" }}
+    <div class="archive-layout">
+      {{ with index .Pages 0 }}
+        <article class="essay archive-latest">
+          <header class="essay-header">
+            <h2 class="essay-title archive-latest-title">{{ .Title }}</h2>
+            {{ with .Description }}<p class="essay-dek">{{ . }}</p>{{ end }}
+          </header>
+          <div class="essay-body">
+            {{ .Content }}
+          </div>
+        </article>
+      {{ end }}
+
+      {{ $archivePosts := .Pages }}
+      {{ if gt (len $archivePosts) 0 }}
+        <aside class="archive-groups">
+          <img class="archive-portrait archive-portrait--rail" src="{{ "/profile-home.png" | relURL }}" alt="Portrait of Adam Bouhmad" />
+          {{ range $archivePosts.GroupByDate "2006-01" }}
+            <section class="archive-year">
+              <h2>{{ time.Format "January 2006" (time.AsTime (printf "%s-01" .Key)) }}</h2>
+              <ul class="archive-list">
+                {{ range .Pages }}
+                  <li{{ if eq .RelPermalink (index $.Pages 0).RelPermalink }} class="is-current"{{ end }}>
+                    <div>
+                      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+                    </div>
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+                  </li>
+                {{ end }}
+              </ul>
+            </section>
+          {{ end }}
+        </aside>
+      {{ end }}
+    </div>
+  {{ else }}
+    <ul class="archive-list">
+      {{ range .Pages }}
+        <li>
+          <div>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Description }}<p>{{ . }}</p>{{ end }}
+          </div>
+          {{ if .Date }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>{{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>
+{{- end }}

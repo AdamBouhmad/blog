@@ -1,25 +1,24 @@
 {{ define "main" -}}
-{{ if .Site.Params.light_dark }}
-    {{ partial "light_dark.html" . }}
-{{ end }}
-<div class="post">
-    {{ with .Site.GetPage "/about/about" }}
-        <h1 class="post-title">{{ .Title }}</h1>
-        {{ .Content }}
-    {{ end }}
-</div>
+<section class="home-card">
+  <div class="home-card-top">
+    <img class="home-portrait" src="{{ "/profile-home.png" | relURL }}" alt="Portrait of Adam Bouhmad" />
+    <div>
+      <p class="home-summary">Hey, I'm Adam. I'm an eternal optimist & life-long learner interested in the intersection of humanities & technology. These days I'm based in Seattle, WA and work on all things Identity and Access Management @ Cloudflare.</p>
 
-<div class="posts">
-    <article class="post">
-        <h2 class="post-title">Recent Posts</h2>
-        <ul>
-            {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
-                <li>
-                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    <small> - {{ .Date.Format "Jan 2, 2006" }}</small>
-                </li>
-            {{ end }}
+      <div class="home-links-block">
+        <ul class="home-link-list">
+          <li><a href="{{ "/posts/" | relURL }}">Writing</a></li>
+          <li><a href="{{ "/stream/" | relURL }}">Signals</a></li>
+          <li><a href="{{ "/links/" | relURL }}">Elsewhere</a></li>
+          <li><a href="{{ "/about/" | relURL }}">About</a></li>
+          <li><a href="https://www.linkedin.com/in/bouhmad/">LinkedIn</a></li>
+          <li><a href="mailto:adbouhmad@gmail.com">Email</a></li>
         </ul>
-    </article>
-</div>
+      </div>
+
+      <p class="home-summary">I have roots in the nonprofit world going back a decade, spent time as a Security Engineer in both startup and fintech environments, worked on Boundary at HashiCorp, and founded Baltimore's first nonprofit ISP, Project Waves, which helped connect more than 300 homes to free, subsidized internet during the pandemic.</p>
+      <p class="home-summary">This blog is a pretty candid public notebook. I write here about access management, digital equity, internet access, politics, infrastructure, birding, bouldering, and whatever else I'm obsessing about.</p>
+    </div>
+  </div>
+</section>
 {{ end }}

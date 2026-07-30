@@ -4,8 +4,12 @@ theme = "poison"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
+[author]
+    name = "Adam Bouhmad"
+
 [params]
     brand = "Bouhmad's Musings"                      # name of your site - appears in the sidebar
+    author = "Adam Bouhmad"
     # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
     description = "Learnings from a life-long learner" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false

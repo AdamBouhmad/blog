@@ -1,0 +1,27 @@
+{{ partial "head/head.html" . }}
+  <body class="site-shell{{ if .IsHome }} is-home{{ end }}">
+    <div class="page-frame">
+      <header class="site-header">
+        <a class="site-brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Params.author | default .Site.Title }} home">
+          <span>
+            <span class="site-title">{{ .Site.Params.author | default .Site.Title }}</span>
+            <span class="site-tagline">notes on security, infrastructure, and public systems</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="{{ "/posts/" | relURL }}">Writing</a>
+          <a href="{{ "/stream/" | relURL }}">Signals</a>
+          <a href="{{ "/links/" | relURL }}">Elsewhere</a>
+          <a href="{{ "/about/" | relURL }}">About</a>
+        </nav>
+      </header>
+      <main class="site-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      <footer class="site-footer">
+        <p>{{ .Site.Params.author | default .Site.Title }}</p>
+        <p class="site-footer-location">Seattle, WA</p>
+      </footer>
+    </div>
+  </body>
+</html>

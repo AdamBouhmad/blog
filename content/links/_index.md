@@ -1,12 +1,10 @@
 +++
-title = "Links"
-description = "Some of my work i've done around the internet"
+title = "Elsewhere"
+description = "Some of my work around the internet."
 layout = "single"
 type = "page"
 draft = false
 +++
-
-Some of my work i've done around the internet.
 
 ## Blogs
 
