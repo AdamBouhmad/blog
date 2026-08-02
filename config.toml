@@ -1,5 +1,6 @@
 baseURL = "https://bouhmad.com"
 languageCode = "en-us"
+title = "Bouhmad's Musings"
 theme = "poison"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries

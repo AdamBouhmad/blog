@@ -1,11 +1,5 @@
 {{ define "main" -}}
 <article class="essay">
-  <header class="essay-header">
-    <p class="eyebrow">About</p>
-    <h1 class="essay-title">{{ .Title | default "About" }}</h1>
-    {{ with .Description }}<p class="essay-dek">{{ . }}</p>{{ end }}
-  </header>
-
   <div class="essay-body">
     {{ .Content }}
   </div>

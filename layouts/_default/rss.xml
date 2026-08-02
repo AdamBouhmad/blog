@@ -1,0 +1,30 @@
+{{- printf `<?xml version="1.0" encoding="utf-8" standalone="yes"?>` | safeHTML }}
+{{- $siteTitle := or .Site.Title .Site.Params.brand -}}
+{{- $title := $siteTitle -}}
+{{- $description := printf "Recent content on %s" $siteTitle -}}
+{{- $pages := .RegularPages -}}
+{{- if ne .Kind "home" -}}
+  {{- $pages = .Pages -}}
+  {{- $title = printf "%s on %s" .Title $siteTitle -}}
+  {{- $description = printf "Recent content in %s on %s" .Title $siteTitle -}}
+{{- end -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ $title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ $description }}</description>
+    <generator>Hugo</generator>
+    <language>{{ site.Language.LanguageCode | default "en-us" }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{ with .OutputFormats.Get "RSS" }}<atom:link href="{{ .Permalink }}" rel="self" type="{{ .MediaType.Type }}" />{{ end }}
+    {{ range $pages.ByDate.Reverse }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Content | html }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
