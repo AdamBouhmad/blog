@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Everybody",
-  "artist": "Mac Miller",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273d9d8f1a08476cd347fbea313",
-  "song_url": "https://open.spotify.com/track/1OuN92HcVG6NVpWbeESNB3",
-  "updated_at": "2026-08-11T02:52:45.381026+00:00",
-  "updated_at_pst": "2026-08-10 07:52 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-08-11T04:21:14.305998+00:00",
+  "updated_at_pst": "2026-08-10 09:21 PM PDT"
 }
