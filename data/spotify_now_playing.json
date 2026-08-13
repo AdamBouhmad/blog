@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-08-13T17:13:14.832510+00:00",
-  "updated_at_pst": "2026-08-13 10:13 AM PDT"
+  "is_playing": true,
+  "track": "Pets",
+  "artist": "deadmau5",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273d187000a5770a9179f8d99c5",
+  "song_url": "https://open.spotify.com/track/1orqppWOgid8LIp3X2dUIg",
+  "updated_at": "2026-08-13T18:09:49.540894+00:00",
+  "updated_at_pst": "2026-08-13 11:09 AM PDT"
 }
