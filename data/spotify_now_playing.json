@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-08-17T07:00:11.758422+00:00",
-  "updated_at_pst": "2026-08-17 12:00 AM PDT"
+  "is_playing": true,
+  "track": "Care",
+  "artist": "Freak Slug",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b27338354a3607204ae665a08a02",
+  "song_url": "https://open.spotify.com/track/3MklLppNRhuAupVGO3uNW2",
+  "updated_at": "2026-08-17T08:00:30.286953+00:00",
+  "updated_at_pst": "2026-08-17 01:00 AM PDT"
 }
