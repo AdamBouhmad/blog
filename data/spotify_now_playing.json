@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-08-18T02:42:30.000743+00:00",
-  "updated_at_pst": "2026-08-17 07:42 PM PDT"
+  "is_playing": true,
+  "track": "Radio",
+  "artist": "Freak Slug",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273d51041ef5c6a58f12afb900a",
+  "song_url": "https://open.spotify.com/track/1gyIYA98zceKTnjISviYRz",
+  "updated_at": "2026-08-18T03:29:09.549184+00:00",
+  "updated_at_pst": "2026-08-17 08:29 PM PDT"
 }
