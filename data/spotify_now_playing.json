@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "I Don't Know You",
-  "artist": "The Mar\u00edas",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b2730924b9c6232d2348d4efa0dc",
-  "song_url": "https://open.spotify.com/track/06cqIVC8kRAT02qfHQT65v",
-  "updated_at": "2026-08-19T05:13:50.592495+00:00",
-  "updated_at_pst": "2026-08-18 10:13 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-08-19T05:49:10.597758+00:00",
+  "updated_at_pst": "2026-08-18 10:49 PM PDT"
 }
