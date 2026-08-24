@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": false,
-  "track": "Not playing right now",
-  "artist": "Spotify",
-  "album_art_url": "",
-  "song_url": "",
-  "updated_at": "2026-08-24T23:09:22.842647+00:00",
-  "updated_at_pst": "2026-08-24 04:09 PM PDT"
+  "is_playing": true,
+  "track": "Enter Galactic (Love Connection Part I)",
+  "artist": "Kid Cudi",
+  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273a487deeecb334b6619489d74",
+  "song_url": "https://open.spotify.com/track/0ujsBQIHVikzdQOekiu5gS",
+  "updated_at": "2026-08-24T23:35:53.680724+00:00",
+  "updated_at_pst": "2026-08-24 04:35 PM PDT"
 }
