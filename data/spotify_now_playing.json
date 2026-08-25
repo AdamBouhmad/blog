@@ -1,10 +1,10 @@
 {
   "profile_name": "Adam Bouhmad",
-  "is_playing": true,
-  "track": "Tyler Herro",
-  "artist": "Jack Harlow",
-  "album_art_url": "https://i.scdn.co/image/ab67616d0000b273241d95f67f9f5078047a81b2",
-  "song_url": "https://open.spotify.com/track/4DuUwzP4ALMqpquHU0ltAB",
-  "updated_at": "2026-08-24T23:58:55.746877+00:00",
-  "updated_at_pst": "2026-08-24 04:58 PM PDT"
+  "is_playing": false,
+  "track": "Not playing right now",
+  "artist": "Spotify",
+  "album_art_url": "",
+  "song_url": "",
+  "updated_at": "2026-08-25T01:45:44.118905+00:00",
+  "updated_at_pst": "2026-08-24 06:45 PM PDT"
 }
